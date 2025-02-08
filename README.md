@@ -4,3 +4,4 @@ Extends Unity with the inspector graph, an editor window in which components can
 ## TODO
 
 * I should put all the code into an assembly definition.
+* There is a minor issue, that when adding multiple components they first are stacked on each other.
