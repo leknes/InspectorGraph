@@ -1,0 +1,73 @@
+.node {
+    background-color: #383838;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #141414;
+    padding: 0px;
+}
+
+.node:hover {
+   border-width: 1px;
+}
+
+#selection-border {
+   margin: -1px
+}
+
+:selected:hover > #selection-border {
+    margin: -2px
+}
+
+.unity-image {
+    width: 16px;
+    height: 16px;
+    align-self: center;
+    margin-left: 3px
+}
+
+#title { 
+    justify-content: flex-start;
+    background-color: rgba(0,0,0,0);
+}
+
+#node-border {
+      border-color: #141414;
+      border-width: 1px;
+      border-radius: 8px; 
+      margin: -1px;
+}
+
+#title-label {
+    margin-left: 4px;
+    padding: 0px;
+}
+
+#title > .unity-toggle {
+    margin-right: 1px;
+    margin-left: 4px;
+    margin-top: 2px;
+} 
+
+#title-button-container > .unity-foldout__toggle {
+    width: 12px;
+    margin-right: 2px;
+    margin-left: 6px
+}
+
+#inspector {
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-left: 5px
+}
+
+#new-title {
+    justify-content: space-between;
+}
+
+#new-output {
+    align-self: center;
+}
+
+#contents > #input {
+    background-color: rgba(0,0,0,0);
+} 
