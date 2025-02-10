@@ -6,3 +6,4 @@ Extends Unity with the inspector graph, an editor window in which components can
 * I should put all the code into an assembly definition.
 * There is a minor issue, that when adding multiple components they first are stacked on each other.
 * Minor error when adding components? (You cannot call GetLast immediately after beginning a group.)
+* There is a little issue, that when reloading the graph view, the nodes are not displayed in the right order.
