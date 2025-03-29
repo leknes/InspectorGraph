@@ -7,7 +7,7 @@ You can use the inspector graph, by just importing the most recent Unity package
 ## Getting started
 You can find the inspector graph under Window -> General -> Inspector Graph. 
 
-![image](https://github.com/user-attachments/assets/b8cb8c05-1800-4d18-82ca-03638298ccd3)
+![image](https://github.com/user-attachments/assets/b8cb8c05-1800-4d18-82ca-03638298ccd3 | width=100)
 
 
 ## TODO
