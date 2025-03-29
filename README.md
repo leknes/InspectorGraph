@@ -7,7 +7,8 @@ You can use the inspector graph, by just importing the most recent Unity package
 ## Getting started
 You can find the inspector graph under Window -> General -> Inspector Graph. 
 
-<img src="[https://github.com/favicon.ico](https://github.com/user-attachments/assets/b8cb8c05-1800-4d18-82ca-03638298ccd3)" width="256">
+![](https://github.com/user-attachments/assets/10c9e261-4568-4968-8a18-ac225209e9ce)
+
  
 ## TODO
 
