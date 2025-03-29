@@ -4,7 +4,7 @@ Extends Unity with the inspector graph, an editor window in which components can
 ![Example Picture](https://github.com/user-attachments/assets/9fd8d9e3-40d0-49aa-90ed-5f86e1e3f84f)
 
 ## Installation
-You can use the inspector graph, by just importing the most recent Unity package from the Releases page [https://github.com/leknes/InspectorGraph/releases/tag/v1.1.0|here]. 
+You can use the inspector graph, by just importing the most recent Unity package from the Releases page [here](https://github.com/leknes/InspectorGraph/releases/tag/v1.1.0). 
 
 
 
