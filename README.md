@@ -1,5 +1,5 @@
 # InspectorGraph
-Extends Unity with the inspector graph, an editor window in which components can be edited, just like in the inspector, but within a graph view with ports representing component references and also support for interface serialization.
+Extends Unity with the inspector graph, an editor window in which components can be edited, just like in the inspector. It has support for private components, lists and even interfaces, which can be connected using ports, just like in the Unity Shader Graph.
 
 ![Example Picture](https://github.com/user-attachments/assets/9fd8d9e3-40d0-49aa-90ed-5f86e1e3f84f)
 
