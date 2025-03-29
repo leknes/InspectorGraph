@@ -9,9 +9,7 @@ You can use the inspector graph, by just importing the most recent Unity package
 ## Getting started
 You can find the inspector graph under Window -> General -> Inspector Graph. Then, using it should be quite intutive, as you can just drag around nodes resembling components, and even connect component references with ports, just like in the Unity Shader Graph. This also includes lists and arrays of component. Also you can expand/collapse the nodes, to hide component intrinsics. Nicely, whether a components is collapsed or not, and where the components has been dragged to, is saved to the project settings, so that the inspector graph stays consistent even after exiting the editor.
 
-
-https://github.com/user-attachments/assets/ba99f59d-2bfe-4f49-8540-1020796ba1d1
-
+https://github.com/user-attachments/assets/0545bbb2-d9f9-4f69-9220-072389a123d7
 
 ## Interface serialization
 
