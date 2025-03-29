@@ -1,0 +1,40 @@
+.game-object-element {
+	width: 260px;
+    background-color: #383838;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #141414;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin: 4px;
+}
+
+.header-element {
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-bottom: 4px;
+	height: 21px;
+	align-items: center;
+}
+
+.header-element > .unity-image {
+	width: 16px;
+	height: 16px;
+	margin-right: 3px; 
+}
+ 
+.header-element > .unity-toggle {
+	margin: 0px;
+	margin-right: 9px; 
+}
+
+.header-element > .unity-text-field {
+	max-width: 202px;
+	flex-grow: 1
+}
+
+.unity-label {
+	min-width: 44px;
+}
