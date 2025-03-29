@@ -4,7 +4,9 @@ Extends Unity with the inspector graph, an editor window in which components can
 ![Example Picture](https://github.com/user-attachments/assets/9fd8d9e3-40d0-49aa-90ed-5f86e1e3f84f)
 
 ## Installation
-You can use the inspector graph, by just importing the most recent Unity package from the Releases page (https://github.com/leknes/InspectorGraph/releases/tag/v1.1.0).
+You can use the inspector graph, by just importing the most recent Unity package from the Releases page [https://github.com/leknes/InspectorGraph/releases/tag/v1.1.0|here]. 
+
+
 
 ## Getting started
 You can find the inspector graph under Window -> General -> Inspector Graph. Then, using it should be quite intutive, as you can just drag around nodes resembling components, and even connect component references with ports, just like in the Unity Shader Graph. This also includes lists and arrays of component. Also you can expand/collapse the nodes, to hide component intrinsics. Nicely, whether a components is collapsed or not, and where the components has been dragged to, is saved to the project settings, so that the inspector graph stays consistent even after exiting the editor.
