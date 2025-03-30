@@ -9,9 +9,7 @@ namespace InspectorGraph
         public static bool IsOpen { get; private set; }
 
         private InspectorGraphView _graphView;
-
-        public bool Focused => focusedWindow == this;
-
+         
 
         [MenuItem("Window/General/Inspector Graph")]
         public static void OpenInspectorGraphWindow()
@@ -22,11 +20,20 @@ namespace InspectorGraph
 
             window.titleContent = new GUIContent("Inspector Graph", icon);
         }
+         
+
+        private void OnBecameInvisible()
+        { 
+            _graphView.Unload();
+        }
+
+        private void OnBecameVisible()
+        { 
+            _graphView.Load();
+        }
 
         private void OnEnable()
-        {   
-            Debug.Log("Window enabled...");
-
+        {    
             IsOpen = true;
 
             _graphView = new InspectorGraphView(this)

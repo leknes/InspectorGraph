@@ -1,9 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; 
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEditor.Experimental.GraphView;
+using UnityEngine;
 
 namespace InspectorGraph
 {
@@ -33,6 +34,8 @@ namespace InspectorGraph
 
         public ComponentNode[] Create(IReadOnlyList<ComponentNodeInfo> infoCollection)
         {
+            Debug.Log("Creating nodes.");
+
             ComponentNodeBuilder[] builderArray = new ComponentNodeBuilder[infoCollection.Count];
 
             for (int i = 0; i < infoCollection.Count; i++)

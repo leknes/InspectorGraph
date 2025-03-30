@@ -286,7 +286,7 @@ namespace InspectorGraph
 
             InspectorGraphSelection.SelectionChanged += OnSelectionChanged;
         }
-
+         
         public void Unload()
         {
             TryUnbindGameObject();
