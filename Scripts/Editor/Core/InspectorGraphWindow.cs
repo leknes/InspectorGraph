@@ -19,8 +19,7 @@ namespace InspectorGraph
             var icon = Resources.Load<Texture>("Textures/InspectorGraphIcon");
 
             window.titleContent = new GUIContent("Inspector Graph", icon);
-        }
-         
+        } 
 
         private void OnBecameInvisible()
         { 
@@ -44,14 +43,11 @@ namespace InspectorGraph
             _graphView.StretchToParentSize();
 
             rootVisualElement.Add(_graphView);
-
-            _graphView.Load();
+             
         }
 
         private void OnDisable()
-        {
-            _graphView.Unload();
-
+        { 
             rootVisualElement.Remove(_graphView);
 
             IsOpen = false;

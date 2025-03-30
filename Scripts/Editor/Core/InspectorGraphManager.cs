@@ -216,6 +216,8 @@ namespace InspectorGraph
         {
             output.portColor = _defaultPortColor;
 
+            Debug.Log($"Adding output... ({_components.Count})");
+
             _outputs.Add(component, output);
             _components.Add(output, component);
 

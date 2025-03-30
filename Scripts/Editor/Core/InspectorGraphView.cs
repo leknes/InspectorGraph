@@ -281,7 +281,7 @@ namespace InspectorGraph
         }
 
         public void Load()
-        {
+        { 
             TryBindGameObject();
 
             InspectorGraphSelection.SelectionChanged += OnSelectionChanged;
