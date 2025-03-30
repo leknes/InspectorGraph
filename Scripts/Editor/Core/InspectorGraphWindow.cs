@@ -43,7 +43,8 @@ namespace InspectorGraph
             _graphView.StretchToParentSize();
 
             rootVisualElement.Add(_graphView);
-             
+
+            _graphView.Load();
         }
 
         private void OnDisable()
@@ -51,6 +52,8 @@ namespace InspectorGraph
             rootVisualElement.Remove(_graphView);
 
             IsOpen = false;
+
+            _graphView.Unload();
         }
     }
 

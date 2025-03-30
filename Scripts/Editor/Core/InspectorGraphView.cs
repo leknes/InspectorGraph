@@ -26,6 +26,8 @@ namespace InspectorGraph
 
         private GameObject _currentGameObject;
 
+        private bool _loaded;
+
         public InspectorGraphView(InspectorGraphWindow window)
         {
             _window = window;
@@ -281,7 +283,12 @@ namespace InspectorGraph
         }
 
         public void Load()
-        { 
+        {
+            if (_loaded)
+                return;
+
+            _loaded = true;
+
             TryBindGameObject();
 
             InspectorGraphSelection.SelectionChanged += OnSelectionChanged;
@@ -289,6 +296,11 @@ namespace InspectorGraph
          
         public void Unload()
         {
+            if (!_loaded)
+                return;
+
+            _loaded = false;
+
             TryUnbindGameObject();
 
             InspectorGraphSelection.SelectionChanged -= OnSelectionChanged;
