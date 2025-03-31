@@ -33,9 +33,7 @@ namespace InspectorGraph
         }
 
         public ComponentNode[] Create(IReadOnlyList<ComponentNodeInfo> infoCollection)
-        {
-            Debug.Log("Creating nodes.");
-
+        { 
             ComponentNodeBuilder[] builderArray = new ComponentNodeBuilder[infoCollection.Count];
 
             for (int i = 0; i < infoCollection.Count; i++)
